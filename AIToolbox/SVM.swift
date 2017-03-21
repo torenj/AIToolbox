@@ -838,7 +838,7 @@ open class SVMModel
                     do {
                         try data.setOutput(index, newOutput: decisionValues)
                     }
-                    catch { break }
+                    catch {  }
                     
                     //  Get the most likely class, and set it
                     var maxIndex = 0
